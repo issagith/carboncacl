@@ -1,0 +1,28 @@
+Identifiant de l'élément,Nom base français,Code de la catégorie,Statut de l'élément,CO2,Unité français
+12899.0,Anthracite,Combustibles > Fossiles > Solides > Charbons,Valide générique,1010.4719583333334,kgCO2e/GJ PCI
+14245.0,Biodiesel,Combustibles > Organiques > Liquides,Valide générique,632.4114372093023,kgCO2e/kWh PCI
+14260.0,Bioéthanol,Combustibles > Organiques > Liquides,Valide générique,1377.7168866666666,kgCO2e/kWh PCI
+25830.0,Bois bûches,Combustibles > Organiques > Solides,Valide spécifique,0.039,kgCO2e/kWh
+25829.0,Bois granulé,Combustibles > Organiques > Solides,Valide spécifique,0.027,kgCO2e/kWh
+25833.0,Bois granulés,Combustibles > Organiques > Solides,Valide spécifique,0.032,kgCO2e/kWh
+25831.0,Bois plaquette,Combustibles > Organiques > Solides,Valide spécifique,0.018,kgCO2e/kWh
+12925.0,Charbon à vapeur,Combustibles > Fossiles > Solides > Charbons,Valide générique,748.2026249999999,kgCO2e/GJ PCI
+12929.0,Charbon sous-bitumineux,Combustibles > Fossiles > Solides > Charbons,Valide générique,754.9365416666666,kgCO2e/GJ PCI
+14078.0,Combustible haute viscosité (CHV),Combustibles > Fossiles > Liquides > Usage source fixe,Valide générique,667.3308333333333,kgCO2e/GJ PCI
+34939.0,Connexes transformation bois (écorces ou chutes issues de scierie ou papeterie),Combustibles > Organiques > Solides,Valide générique,0.0135,kgCO2e/kWh PCI
+34941.0,Déchets bois,Combustibles > Organiques > Solides,Valide générique,0.020649999999999998,kgCO2e/kWh PCI
+26815.0,Electricité,Electricité > Mix réseau électrique > France continentale > Moyen,Valide générique,0.03810768844221105,kgCO2e/kWh
+15714.0,Électricité en Europe,Electricité > Mix réseau électrique > Autres pays du monde,Valide générique,0.42,kgCO2e/kWh
+25845.0,Electricité exportée,Electricité > Mix réseau électrique > France continentale > Moyen,Valide spécifique,0.082,kgCO2e/kWh
+28287.0,Fioul à base de carbone recyclé,Combustibles > Fossiles > Liquides > Usage source fixe,Valide spécifique,18.68979222222222,kgCO2e/kg
+14095.0,Fioul Lourd,Combustibles > Fossiles > Liquides > Usage source fixe,Valide générique,985.3508666666667,kgCO2e/GJ PCI
+26621.0,Gaz naturel - 2015,Combustibles > Fossiles > Gazeux > Gaz naturel,Valide générique,489.37257142857146,kgCO2e/kWh PCI
+37132.0,Gaz naturel - 2022,Combustibles > Fossiles > Gazeux > Gaz naturel,Valide générique,515.814219047619,kgCO2e/kWh PCI
+13990.0,Gazole non routier,Combustibles > Fossiles > Liquides > Usage sources mobiles > Autres usages,Valide générique,513.8201933333333,kgCO2e/GJ PCI
+27092.0,"GNC, Gaz Naturel Comprimé pour véhicule routier",Combustibles > Fossiles > Liquides > Usage sources mobiles > Usage routier,Valide générique,365.64369999999997,kgCO2e/kWh PCI
+34942.0,Granulés,Combustibles > Organiques > Solides,Valide générique,0.019399999999999997,kgCO2e/kWh PCI
+12945.0,Houille,Combustibles > Fossiles > Solides > Charbons,Valide générique,1109.0858074074074,kgCO2e/kg
+34920.0,HVO 100,Combustibles > Organiques > Liquides,Valide générique,62.822227999999996,kgCO2e/GJ PCI
+14103.0,Pétrole Brut,Combustibles > Fossiles > Liquides > Pétrole brut,Valide générique,27.64933333333333,kgCO2e/GJ PCI
+28284.0,Pneumatiques usagés non réutilisables,Combustibles > Fossiles > Solides > Déchets,Valide générique,37.49111111111111,kgCO2e/GJ PCI
+12973.0,Tourbe,Combustibles > Fossiles > Solides > Charbons,Valide générique,1123.5662272727272,kgCO2e/GJ PCI

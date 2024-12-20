@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+env/
+.env
+
+# Fichiers générés
+*.png
+report.html
+
+dist/
+build/
+*.egg-info/
+
+*.log
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

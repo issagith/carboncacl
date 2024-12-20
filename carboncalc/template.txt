@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport d'Émissions de CO2</title>
+    <style>
+        body [[ 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        ]]
+        .container [[
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        ]]
+        header [[
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        ]]
+        .grid [[
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            justify-content: space-evenly;
+        ]]
+        .grid-item [[
+            flex: 1 1 calc(50% - 40px);
+            max-width: calc(50% - 40px);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            background: #fff;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        ]]
+        .grid-item img [[
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        ]]
+        .summary [[
+            margin-top: 20px;
+        ]]
+        footer [[
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+        ]]
+        h2 [[
+            color: #333;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
+        ]]
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rapport d'Émissions de CO2</h1>
+    </header>
+    <div class="container">
+        <section class="summary">
+            {llm_summary}
+        </section>
+        <section class="grid">
+            <div class="grid-item">
+                <h3>Emissions par type</h3>
+                <img src="{emissions_by_type_img}" alt="Emissions par type">
+            </div>
+            <div class="grid-item">
+                <h3>Répartition par type (Camembert)</h3>
+                <img src="{emissions_pie_img}" alt="Répartition par type">
+            </div>
+            <div class="grid-item">
+                <h3>Top 5 produits émetteurs</h3>
+                <img src="{top_emitting_products_img}" alt="Top produits">
+            </div>
+            <div class="grid-item">
+                <h3>Distribution par produit</h3>
+                <img src="{distribution_emissions_img}" alt="Distribution par produit">
+            </div>
+            <div class="grid-item">
+                <h3>Boxplot par type</h3>
+                <img src="{boxplot_emissions_by_type_img}" alt="Boxplot par type">
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Généré avec l'outil CarbonCalc</p>
+    </footer>
+</body>
+</html>
