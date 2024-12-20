@@ -48,8 +48,10 @@ pip install -r requirements.txt
 Ou si vous avez accès au fichier tar.gz :
 
 ```bash
-pip install carboncalc-0.1.tar.gz
+pip install carboncalc-<version>.tar.gz
 ```
+
+avec `<version>` la version du package.
 
 Rendez-vous sur le site d'OpenAI pour obtenir une clé API 
 
