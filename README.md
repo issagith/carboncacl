@@ -35,7 +35,7 @@ Note : Ce package est développer dans le cadre d'un projet scolaire avec un tem
 Clonez le projet :
 
 ```bash
-git clone https://github.com/votre-utilisateur/carboncalc.git
+git clone https://github.com/issagith/carboncacl.git
 cd carboncalc
 ```
 
@@ -43,6 +43,12 @@ Installez les dépendances grâce au fichier `requirements.txt` :
 
 ```bash
 pip install -r requirements.txt
+```
+
+Ou si vous avez accès au fichier tar.gz :
+
+```bash
+pip install carboncalc-0.1.tar.gz
 ```
 
 Rendez-vous sur le site d'OpenAI pour obtenir une clé API 
